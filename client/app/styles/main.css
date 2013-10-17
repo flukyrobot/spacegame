@@ -1,0 +1,34 @@
+
+#opponent,#board,#player{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+#opponent{
+    height: 25px;
+    background: black;
+}
+
+#board{
+    background: red;
+
+}
+
+#player{
+    height: 200px;
+    background: green;
+}
+
+.card,card{
+	position:relative;
+	display: block;
+	float:left;
+	max-height: 150px;
+	min-height: 75px;
+	max-width: 100px;
+	min-width: 50px;
+	margin: 1px;
+	background: black;
+	color:white;
+}
